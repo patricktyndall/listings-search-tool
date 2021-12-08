@@ -62,11 +62,11 @@ function App() {
       <div className='ml3'>
       <FilterRow>
           {renderCheckbox([sortByAgeMin, setSortByAgeMin])}
-          {'By cheapest bedroom available'}
+          {'By min tenant age'}
         </FilterRow>
         <FilterRow>
           {renderCheckbox([sortByCheapestBedroom, setShortByCheapestBedroom])}
-          {'By min tenant age'}
+          {'By cheapest bedroom available'}
         </FilterRow>
       </div>
       <div className='f3 mt4 mb3 fw7 tl'>
